@@ -1,0 +1,4 @@
+[ 2026-04-13 23:48:23,707 ] 13 root - INFO - Starting Spark Session
+[ 2026-04-13 23:48:29,044 ] 22 root - INFO - Spark Session Started Successfully
+[ 2026-04-13 23:48:31,100 ] 13 root - INFO - Starting log parsing
+[ 2026-04-13 23:48:31,233 ] 24 root - INFO - Log parsing completed
