@@ -1,0 +1,24 @@
+[ 2026-04-22 14:56:48,152 ] 18 root - INFO - Pipeline execution started
+[ 2026-04-22 14:56:48,153 ] 14 root - INFO - Starting Spark Session
+[ 2026-04-22 14:57:14,429 ] 25 root - INFO - Spark Session started successfully
+[ 2026-04-22 14:57:14,430 ] 26 root - INFO - Loading raw data
+[ 2026-04-22 14:57:14,430 ] 37 root - INFO - Loading data from path: C:\Users\Priyanshu\Desktop\Main\ML\Distributed-Log-Analysis\data\raw\HDFS.log
+[ 2026-04-22 14:57:17,556 ] 41 root - INFO - Data loaded successfully
+[ 2026-04-22 14:57:17,556 ] 32 root - INFO - Parsing logs
+[ 2026-04-22 14:57:17,556 ] 18 root - INFO - Starting log parsing
+[ 2026-04-22 14:57:17,723 ] 29 root - INFO - Log parsing completed successfully
+[ 2026-04-22 14:57:17,723 ] 39 root - INFO - Transforming data
+[ 2026-04-22 14:57:17,723 ] 17 root - INFO - Starting data transformation
+[ 2026-04-22 14:57:17,966 ] 41 root - INFO - Data transformation completed successfully
+[ 2026-04-22 15:00:13,089 ] 50 root - INFO - Running analysis
+[ 2026-04-22 15:00:13,102 ] 14 root - INFO - Computing log level distribution
+[ 2026-04-22 15:00:13,296 ] 25 root - INFO - Computing top components by log volume
+[ 2026-04-22 15:00:13,328 ] 36 root - INFO - Computing components generating WARN logs
+[ 2026-04-22 15:00:13,382 ] 49 root - INFO - Performing hourly log analysis
+[ 2026-04-22 15:00:13,442 ] 61 root - INFO - Detecting warning spikes
+[ 2026-04-22 15:00:13,497 ] 75 root - INFO - Extracting top failure messages
+[ 2026-04-22 15:00:13,536 ] 88 root - INFO - Analyzing process-level failures
+[ 2026-04-22 15:00:13,577 ] 101 root - INFO - Computing failure risk based on WARN thresholds
+[ 2026-04-22 15:00:13,822 ] 121 root - INFO - Classifying component risk levels
+[ 2026-04-22 15:00:14,101 ] 65 root - INFO - Pipeline execution completed successfully
+[ 2026-04-22 15:00:23,958 ] 543 py4j.clientserver - INFO - Closing down clientserver connection

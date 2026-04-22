@@ -1,0 +1,7 @@
+[ 2026-04-22 14:46:32,121 ] 14 root - INFO - Starting Spark Session
+[ 2026-04-22 14:46:48,284 ] 25 root - INFO - Spark Session started successfully
+[ 2026-04-22 14:46:48,285 ] 37 root - INFO - Loading data from path: C:\Users\Priyanshu\Desktop\Main\ML\Distributed-Log-Analysis\data\raw\HDFS.log
+[ 2026-04-22 14:46:51,358 ] 41 root - INFO - Data loaded successfully
+[ 2026-04-22 14:46:59,132 ] 18 root - INFO - Starting log parsing
+[ 2026-04-22 14:46:59,225 ] 29 root - INFO - Log parsing completed successfully
+[ 2026-04-22 14:46:59,607 ] 543 py4j.clientserver - INFO - Closing down clientserver connection

@@ -2,3 +2,6 @@
 venv
 */__pycache__
 data/raw/*
+src/components/__pycache__
+src/utils/__pycache__
+notebooks/log/

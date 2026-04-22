@@ -1,0 +1,5 @@
+[ 2026-04-22 14:41:36,641 ] 14 root - INFO - Starting Spark Session
+[ 2026-04-22 14:41:57,964 ] 25 root - INFO - Spark Session started successfully
+[ 2026-04-22 14:41:57,969 ] 37 root - INFO - Loading data from path: ../data/raw/HDFS.log
+[ 2026-04-22 14:42:00,400 ] 45 root - ERROR - Error while loading data
+[ 2026-04-22 14:42:00,465 ] 543 py4j.clientserver - INFO - Closing down clientserver connection
