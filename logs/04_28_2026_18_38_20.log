@@ -1,0 +1,8 @@
+[ 2026-04-28 18:38:20,053 ] 14 root - INFO - Starting Spark Session
+[ 2026-04-28 18:38:35,731 ] 25 root - INFO - Spark Session started successfully
+[ 2026-04-28 18:38:35,731 ] 37 root - INFO - Loading data from path: C:\Users\Priyanshu\Desktop\Main\ML\Distributed-Log-Analysis\data\raw\HDFS.log
+[ 2026-04-28 18:38:50,579 ] 41 root - INFO - Data loaded successfully
+[ 2026-04-28 18:38:50,579 ] 18 root - INFO - Starting log parsing
+[ 2026-04-28 18:38:50,777 ] 29 root - INFO - Log parsing completed successfully
+[ 2026-04-28 18:38:50,777 ] 17 root - INFO - Starting data transformation
+[ 2026-04-28 18:38:51,145 ] 45 root - INFO - Data transformation completed successfully

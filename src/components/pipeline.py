@@ -31,9 +31,6 @@ class LogPipeline:
             transformer = DataTransformation()
             clean_df = transformer.transform(parsed_df)
 
-            clean_df.cache()
-            clean_df.count()
-
             # Step 4: Analysis
             analyzer = LogAnalysis()
 
@@ -50,8 +47,12 @@ class LogPipeline:
             model = LogModel()
 
             features = model.prepare_features(clean_df)
-            model.train_model(features)
-            predictions = model.predict(features)
+
+            train_df, test_df = model.train_test_split(features)
+
+            model.train_model(train_df)
+
+            predictions = model.predict(test_df)
 
             evaluation = model.evaluate(predictions)
             model.visualize(predictions)
@@ -59,10 +60,15 @@ class LogPipeline:
             results["model_predictions"] = predictions
             results["evaluation"] = evaluation
 
-            logging.info("Pipeline completed")
+            explanations = model.explain_anomalies(predictions)
+            model.visualize_feature_contribution(predictions)
+
+            results["explanations"] = explanations
+            results["clean_df"] = clean_df
+
+            clean_df.unpersist()
 
             return results
 
         except Exception as e:
-            logging.error("Pipeline failed")
             raise CustomException(e, sys)

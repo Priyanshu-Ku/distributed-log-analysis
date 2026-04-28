@@ -38,6 +38,10 @@ class DataTransformation:
             # Drop rows where datetime conversion failed
             clean_df = clean_df.filter(col("datetime").isNotNull())
 
+            clean_df = clean_df.dropDuplicates(
+                ["date", "time", "process_id", "log_level", "component", "message"]
+            )
+
             logging.info("Data transformation completed successfully")
             return clean_df
 

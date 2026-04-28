@@ -1,0 +1,5 @@
+[ 2026-04-28 02:46:08,660 ] 18 root - INFO - Starting log parsing
+[ 2026-04-28 02:46:08,774 ] 29 root - INFO - Log parsing completed successfully
+[ 2026-04-28 02:46:08,775 ] 17 root - INFO - Starting data transformation
+[ 2026-04-28 02:46:08,950 ] 45 root - INFO - Data transformation completed successfully
+[ 2026-04-28 02:46:09,727 ] 543 py4j.clientserver - INFO - Closing down clientserver connection

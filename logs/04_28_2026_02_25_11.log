@@ -1,0 +1,28 @@
+[ 2026-04-28 02:25:16,336 ] 19 root - INFO - Pipeline started
+[ 2026-04-28 02:25:16,337 ] 14 root - INFO - Starting Spark Session
+[ 2026-04-28 02:25:25,154 ] 25 root - INFO - Spark Session started successfully
+[ 2026-04-28 02:25:25,154 ] 37 root - INFO - Loading data from path: C:\Users\Priyanshu\Desktop\Main\ML\Distributed-Log-Analysis\data\raw\HDFS.log
+[ 2026-04-28 02:25:30,797 ] 41 root - INFO - Data loaded successfully
+[ 2026-04-28 02:25:30,798 ] 18 root - INFO - Starting log parsing
+[ 2026-04-28 02:25:31,173 ] 29 root - INFO - Log parsing completed successfully
+[ 2026-04-28 02:25:31,173 ] 17 root - INFO - Starting data transformation
+[ 2026-04-28 02:25:31,497 ] 45 root - INFO - Data transformation completed successfully
+[ 2026-04-28 02:25:31,498 ] 15 root - INFO - Computing log level distribution
+[ 2026-04-28 02:25:31,642 ] 26 root - INFO - Computing top components by log volume
+[ 2026-04-28 02:25:31,689 ] 37 root - INFO - Computing components generating WARN logs
+[ 2026-04-28 02:25:31,797 ] 50 root - INFO - Performing hourly log analysis
+[ 2026-04-28 02:25:31,911 ] 102 root - INFO - Computing failure risk based on WARN thresholds
+[ 2026-04-28 02:25:32,052 ] 122 root - INFO - Classifying component risk levels
+[ 2026-04-28 02:25:32,152 ] 35 root - INFO - Preparing window-based features
+[ 2026-04-28 02:28:19,433 ] 47 root - INFO - Prepared 39 feature rows
+[ 2026-04-28 02:28:19,438 ] 63 root - INFO - Train size: 27, Test size: 12
+[ 2026-04-28 02:28:19,438 ] 75 root - INFO - Training Isolation Forest
+[ 2026-04-28 02:28:19,682 ] 90 root - INFO - Model trained successfully
+[ 2026-04-28 02:28:19,682 ] 100 root - INFO - Predicting anomalies on test data
+[ 2026-04-28 02:28:19,699 ] 128 root - INFO - Evaluating model
+[ 2026-04-28 02:28:19,705 ] 154 root - INFO - Visualizing anomalies with scores
+[ 2026-04-28 02:28:20,159 ] 204 root - INFO - Explaining anomalies
+[ 2026-04-28 02:28:20,170 ] 241 root - INFO - Visualizing feature contribution
+[ 2026-04-28 02:33:17,091 ] 26 root - INFO - Computing top components by log volume
+[ 2026-04-28 02:38:35,236 ] 37 root - INFO - Computing components generating WARN logs
+[ 2026-04-28 02:42:29,754 ] 543 py4j.clientserver - INFO - Closing down clientserver connection

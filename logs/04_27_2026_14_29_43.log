@@ -1,0 +1,24 @@
+[ 2026-04-27 14:29:46,760 ] 19 root - INFO - Pipeline started
+[ 2026-04-27 14:29:46,760 ] 14 root - INFO - Starting Spark Session
+[ 2026-04-27 14:29:52,274 ] 25 root - INFO - Spark Session started successfully
+[ 2026-04-27 14:29:52,274 ] 37 root - INFO - Loading data from path: C:\Users\Priyanshu\Desktop\Main\ML\Distributed-Log-Analysis\data\raw\HDFS.log
+[ 2026-04-27 14:29:54,097 ] 41 root - INFO - Data loaded successfully
+[ 2026-04-27 14:29:54,097 ] 18 root - INFO - Starting log parsing
+[ 2026-04-27 14:29:54,221 ] 29 root - INFO - Log parsing completed successfully
+[ 2026-04-27 14:29:54,221 ] 17 root - INFO - Starting data transformation
+[ 2026-04-27 14:29:54,342 ] 41 root - INFO - Data transformation completed successfully
+[ 2026-04-27 14:31:56,159 ] 14 root - INFO - Computing log level distribution
+[ 2026-04-27 14:31:56,348 ] 25 root - INFO - Computing top components by log volume
+[ 2026-04-27 14:31:56,416 ] 36 root - INFO - Computing components generating WARN logs
+[ 2026-04-27 14:31:56,497 ] 49 root - INFO - Performing hourly log analysis
+[ 2026-04-27 14:31:56,589 ] 101 root - INFO - Computing failure risk based on WARN thresholds
+[ 2026-04-27 14:31:56,716 ] 121 root - INFO - Classifying component risk levels
+[ 2026-04-27 14:31:56,779 ] 28 root - INFO - Preparing window-based features
+[ 2026-04-27 14:32:09,671 ] 39 root - INFO - Prepared 465 feature rows
+[ 2026-04-27 14:32:09,673 ] 47 root - INFO - Training Isolation Forest
+[ 2026-04-27 14:32:09,991 ] 59 root - INFO - Model trained successfully
+[ 2026-04-27 14:32:09,991 ] 67 root - INFO - Predicting anomalies
+[ 2026-04-27 14:32:10,009 ] 82 root - INFO - Evaluating model
+[ 2026-04-27 14:32:10,016 ] 105 root - INFO - Visualizing anomalies
+[ 2026-04-27 14:32:24,475 ] 62 root - INFO - Pipeline completed
+[ 2026-04-27 14:32:29,149 ] 543 py4j.clientserver - INFO - Closing down clientserver connection
